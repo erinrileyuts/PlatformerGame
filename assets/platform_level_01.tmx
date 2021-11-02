@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="25" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#a6e7ff" nextlayerid="15" nextobjectid="37">
+ <tileset firstgid="1" source="arcade_platformer.tsx"/>
+ <objectgroup id="13" name="Object Layer 2"/>
+ <objectgroup id="14" name="background">
+  <object id="35" gid="156" x="4.27014" y="2305.7" width="1712.9" height="770.302"/>
+  <object id="36" gid="156" x="1687.46" y="2304.13" width="1712.9" height="770.302"/>
+ </objectgroup>
+ <layer id="1" name="ground" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhQN8Q4AdaJ4iE+ahsPch8TiBmRsIcQDY2e5DdQQob3XyYXSB70M2BydGSBgCAVwIl
+  </data>
+ </layer>
+ <layer id="3" name="goal" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhMLhCIIsOzsmkgx30tAIA3KgA1A==
+  </data>
+ </layer>
+ <objectgroup id="8" name="coins">
+  <object id="2" gid="56" x="1540" y="2306" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="20"/>
+   </properties>
+  </object>
+  <object id="3" gid="56" x="2178" y="1788" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="4" gid="55" x="514" y="2308" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="5" gid="55" x="1024" y="2178" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
